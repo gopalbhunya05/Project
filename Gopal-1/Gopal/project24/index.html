@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<link rel="stylesheet" href="pcs.css">
+
+<style>
+    body{
+        background-color:  black;
+    }
+    #imgf {
+        height: 200px;
+        margin-left: 100px;
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+
+    .titlee {
+        font-size: 0.6cm;
+    }
+    .titleimg{
+  display: flex;
+  margin-top: 1px;
+  gap: 100px;
+  font-size: 1cm;
+  background-image: url(sl3.jpg);
+    }
+    .crlc{
+        height: 250px;
+    }
+    #footer {
+        font-family: cursive;
+        color: white;
+            font-size: 0.5cm;
+            border: 2px;
+            background: linear-gradient(to right , rgb(156, 156, 156) , rgb(0, 0, 0) );
+            box-sizing: border-box;
+          }
+          .cardy{
+              background-image: url(sl1.jpg);
+              gap: 80px;
+              margin-left: 4px;
+          }
+          #home{
+              background-image: url(sl2.jpg);
+          }
+          .formof{
+              background :linear-gradient(to right , rgb(12, 12, 12) , rgb(136, 130, 130) );
+          }
+
+          /* nav navbar-nav navbar-left{
+            float: right;
+          } */
+
+          
+</style>
+</head>
+
+<body data-spy="scrol" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"
+        style="background: linear-gradient(to right , rgb(214, 7, 7) , rgb(14, 17, 173) ) ;">
+        <div class="container-fluid">
+            <diV style="height: 2px;">
+                <img src="imglog.png" alt="" style="height: 50px;">
+            </diV>
+
+            <div class="collapse navbar-collapse" id="myNavbar" style="float: right;">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#home" class="scroll"><span class="fa fa-home"></span> Home</a></li>
+                    <li><a href="#about" class="scroll"><span class="fa fa-user"></span> About </a></li>
+                    <li><a href="#testimonia" class="scroll" class="fa fa-picture-o"><span></span> Testimonial</a></li>
+                    <li><a href="#contact" class="scroll"><span class="fa fa-envelope"></span> Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider of body  -->
+
+    <div >
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="sl1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="sl2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="sl4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div style="margin-top: 10px;">
+
+    </div>
+
+    <!-- home screen of the body  -->
+    <div class="homescreen" id="home" style="display: flex; gap: 100px; height: 200px;">
+        <div class="myimg">
+            <img src="imageee.png" alt="" id="imgf">
+        </div>
+        <!-- <div class="titlee">
+            <p>
+            <h2> Title </h2>
+            <hr>
+            <span> heyy i am Gopal </span> <br>
+            <span>
+                what's up iam here Gopal Bhunya
+            </span>
+            </p>
+
+        </div> -->
+        <hr><br>
+
+    </div>
+    <!-- about  of conent  -->
+    <div class="titleimg" id="about" style="color: white;">
+        <div>
+            <img src="tl1.png" alt="" class="crlc"> <br>
+            <span>
+                title 1
+            </span>
+        </div>
+        <div>
+            <img src="tl2.png" alt=""  class="crlc"> <br>
+            <span>
+                title 2
+            </span>
+        </div>
+        <div>
+            <img src="tl3.png" alt=""  class="crlc"> <br>
+            <span>
+                title 3
+            </span>
+        </div>
+
+    </div>
+    <!-- card enate  -->
+    <div class="cardy" style="margin-top: 10px;  display: flex; height: 250px;" id="testimonia">
+        <div class="card">
+          <img src="sl1.jpg" class="card-img-top" alt="..." style="height: 100px; width: 150px;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Gopa Bhunya</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="sl2.jpg" class="card-img-top" alt="..." style="height: 100px; width: 150px;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Gopal Bhunya </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="sl4.jpg" class="card-img-top" alt="..." style="height: 100px; width: 150px;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a widerirst to show that equal height .</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+ <div style="margin-top: 5px; margin-bottom: 20px;">
+
+ </div>
+     <!-- here form contain -->
+     <div class="formof" id="contact">
+         <form action="post" style="width: 500px; height: 400px;">
+            <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+              <div>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                   
+                   Adress :
+                    <div class="col-12" style="margin-top: 50px;">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label"  style="margin-top: 50px;">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4"  style="margin-top: 50px;">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                   
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck"  style="margin-top: 50px;">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div> <br>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">submit</button>
+                    </div>
+                  </form>
+              </div>
+         </form>
+     </div>
+
+
+     <!-- fotter -->
+     <footer>
+        <footer style="margin-top: 10px;">
+            <p id="footer" style="border: 2px solid black;" > <span  style="color: rgb(215, 215, 215);" > @Copyrights  </span>  reserved by Gopal Bhunya  </p>
+          </footer> 
+        
+     </footer>
+</body>
+
+</html>
